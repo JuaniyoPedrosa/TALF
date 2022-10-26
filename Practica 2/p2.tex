@@ -53,6 +53,22 @@ A continuación, foto del autómata con pila creado
 	\caption{Autómata con pila}
 \end{figure}
 
+\section{Describe el autómata del ejemplo 4.1.1}
+
+Dado $M=(\{q_0,q_1,q_2\}, \{a,b\}, \delta, q_0, \{q_2\})$ es un DFA con:\\
+
+\begin{table}[h!]
+\begin{tabular}{c|c|c}
+  $\delta(q,\sigma)$ & $a$ & $b$\\
+  \hline
+  $q_0$& $q_0$ & $q_1$\\
+  \hline
+  $q_1$& $q_2$ & $q_1$\\
+  \hline
+  $q_2$& $q_2$ & $q_0$
+\end{tabular}
+\end{table}
+
 
 \end{document}
 
